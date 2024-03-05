@@ -19,7 +19,6 @@ import org.slf4j.Logger;
 public class MoreMekanized
 {
     public static final String MOD_ID = "moremekanized";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     public MoreMekanized()
     {
