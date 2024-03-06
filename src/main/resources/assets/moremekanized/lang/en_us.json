@@ -1,6 +1,11 @@
 {
   "item.moremekanized.broken_energy_tablet": "Broken Energy Tablet",
   "item.moremekanized.unchargeable_energy_tablet": "Unchargeable Energy Tablet",
+  "item.moremekanized.alloy_basic": "Basic Alloy",
+  "item.moremekanized.alloy_light_absorbing": "Light Absorbing Alloy",
+  "item.moremekanized.alloy_photonic": "Photonic Alloy",
+  "item.moremekanized.alloy_singular": "Singular Alloy",
+  "item.moremekanized.alloy_spectral": "Spectral Alloy",
 
   "creativetab.moremekanized_tab": "More Mekanized"
 }

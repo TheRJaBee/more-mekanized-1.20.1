@@ -16,6 +16,21 @@ public class ModItems {
     public static final RegistryObject<Item> Unchargeable_Energy_Tablet = ITEMS.register("unchargeable_energy_tablet",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> Alloy_Basic = ITEMS.register("alloy_basic",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Alloy_Light_Absorbing = ITEMS.register("alloy_light_absorbing",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Alloy_Photonic = ITEMS.register("alloy_photonic",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Alloy_Singular = ITEMS.register("alloy_singular",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Alloy_Spectral = ITEMS.register("alloy_spectral",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

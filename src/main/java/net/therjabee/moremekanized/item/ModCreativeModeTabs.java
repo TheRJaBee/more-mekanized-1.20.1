@@ -19,6 +19,11 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.Broken_Energy_Tablet.get());
                         pOutput.accept(ModItems.Unchargeable_Energy_Tablet.get());
+                        pOutput.accept(ModItems.Alloy_Basic.get());
+                        pOutput.accept(ModItems.Alloy_Light_Absorbing.get());
+                        pOutput.accept(ModItems.Alloy_Photonic.get());
+                        pOutput.accept(ModItems.Alloy_Singular.get());
+                        pOutput.accept(ModItems.Alloy_Spectral.get());
                     })
                     .build());
 
