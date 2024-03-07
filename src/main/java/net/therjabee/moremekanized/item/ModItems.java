@@ -31,6 +31,24 @@ public class ModItems {
     public static final RegistryObject<Item> Alloy_Spectral = ITEMS.register("alloy_spectral",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> Andesite_Control_Circuit = ITEMS.register("andesite_control_circuit",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Basic_Control_Circuit = ITEMS.register("basic_control_circuit",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Light_Absorbing_Control_Circuit = ITEMS.register("light_absorbing_control_circuit",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Photonic_Control_Circuit = ITEMS.register("photonic_control_circuit",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Singular_Control_Circuit = ITEMS.register("singular_control_circuit",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Spectral_Control_Circuit = ITEMS.register("spectral_control_circuit",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

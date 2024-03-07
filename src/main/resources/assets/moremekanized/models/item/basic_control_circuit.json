@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "moremekanized:item/basic_control_circuit"
+  }
+ }

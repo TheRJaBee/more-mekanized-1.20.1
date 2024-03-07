@@ -6,6 +6,14 @@
   "item.moremekanized.alloy_photonic": "Photonic Alloy",
   "item.moremekanized.alloy_singular": "Singular Alloy",
   "item.moremekanized.alloy_spectral": "Spectral Alloy",
+  "item.moremekanized.andesite_control_circuit": "Andesite Control Circuit",
+  "item.moremekanized.basic_control_circuit": "Basic Control Circuit",
+  "item.moremekanized.light_absorbing_control_circuit": "Light Absorbing Control Circuit",
+  "item.moremekanized.photonic_control_circuit": "Photonic Control Circuit",
+  "item.moremekanized.singular_control_circuit": "Singular Control Circuit",
+  "item.moremekanized.spectral_control_circuit": "Spectral Control Circuit",
+
+  "block.moremekanized.spectral_energy_cube": "Spectral Energy Cube",
 
   "creativetab.moremekanized_tab": "More Mekanized"
 }
