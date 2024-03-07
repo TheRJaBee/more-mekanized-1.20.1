@@ -8,7 +8,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.therjabee.moremekanized.MoreMekanized;
-import net.therjabee.moremekanized.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -32,7 +31,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.Singular_Control_Circuit.get());
                         pOutput.accept(ModItems.Spectral_Control_Circuit.get());
 
-                        pOutput.accept(ModBlocks.Spectral_Energy_Cube.get());
+                        //pOutput.accept(ModBlocks.Spectral_Energy_Cube.get());
+
                     })
                     .build());
 
